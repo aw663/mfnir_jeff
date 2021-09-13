@@ -16,8 +16,8 @@ const int res = 4096;
 
 int onDelay = 10; //set as 10 ms since last 2 ms is for ADC. 200 for the original mfnir
 int intensity[4] = {128,128,128,128};
-int dly_avg = 2; //in us
-int n_reads = 50;
+int dly_avg = 200; //in us
+int n_reads = 5;
 
 int samplingFrequency = 1000;
 int incomingByte;   // for incoming Serial data
